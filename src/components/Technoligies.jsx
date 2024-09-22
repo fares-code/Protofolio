@@ -5,6 +5,7 @@ import { DiRedis } from "react-icons/di";
 import { GrMysql } from "react-icons/gr";
 import { FaServer } from 'react-icons/fa';
 import { GrDocker } from "react-icons/gr";
+import { RiNextjsFill } from "react-icons/ri";
 import { animate, motion } from "framer-motion"
 const iconVariant =(duration)=>({
     initial:{y:-10},
@@ -57,8 +58,13 @@ initial="initial"
 animate="animate"
 className="rounded-2xl border-4 border-neutral-800 p-4 ">
 <FaReact className="text-6xl text-cyan-400"/>
-
-
+</motion.div>
+    
+<motion.div variants={iconVariant(2.5)} 
+initial="initial"
+animate="animate"
+className="rounded-2xl border-4 border-neutral-800 p-4 ">
+<RiNextjsFill className="text-6xl text-nextjs"/>
 </motion.div>
 
 
