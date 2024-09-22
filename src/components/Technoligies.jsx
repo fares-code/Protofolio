@@ -64,7 +64,7 @@ className="rounded-2xl border-4 border-neutral-800 p-4 ">
 initial="initial"
 animate="animate"
 className="rounded-2xl border-4 border-neutral-800 p-4 ">
-<RiNextjsFill className="text-6xl text-nextjs"/>
+<RiNextjsFill className="text-6xl text-white"/>
 </motion.div>
 
 
