@@ -10,7 +10,8 @@ export default {
         sans: ['Inter', 'Playpen Sans', 'sans-serif'],
       },
       colors: {
-        expressTeal: '#00758F', // Custom color name
+        expressTeal: '#00758F',
+         nextjs: '#000000',// Custom color name
       },
     },
   },
